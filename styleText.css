@@ -1,6 +1,8 @@
 .tulisan_warna{
     color: blue;
+}
+
+.ppp{
     text-align: center;
     text-decoration: underline;
-    letter-spacing: 5px;
 }
