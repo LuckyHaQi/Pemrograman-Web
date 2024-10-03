@@ -2,7 +2,7 @@
 // Membuat Fungsi
 function perkenalan($nama, $salam){
     echo $salam . ", ";
-    echo "Perkenalkan, nama saya "  . $nama .  "<br/>";
+    echo "Perkenalkan, nama saya "  . $nama . "<br/>";
     echo "Senang berkenalan dengan Anda</br>";
 }
 
