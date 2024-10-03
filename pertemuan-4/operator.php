@@ -55,4 +55,11 @@ echo "Hasil dari Penugasan Pengurangan (-=) : {$hasilPenugasanPengurangan} <br>"
 echo "Hasil dari Penugasan Perkalian (*=) : {$hasilpenugasanPerkalian} <br>";
 echo "Hasil dari Penugasan Pembagian (/=) : {$hasilPenugasanPembagian} <br>";
 echo "Hasil dari Penugasan Sisa Bagi (%=) : {$hasilPenugasanSisaBagi} <br>";
+echo "<br>";
+
+$hasilIdentik = $a === $b;
+$hasilTidakIdentik = $a !== $b;
+
+echo "hasil Identik: {$hasilIdentik} <br>";
+echo "hasil Tidak Identik: {$hasilTidakIdentik} <br><br>";
 ?>
