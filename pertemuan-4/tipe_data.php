@@ -14,7 +14,7 @@ echo "Variabel e : {$e} <br>";
 var_dump($e);
 
 $nilaiMatematika = 5.1;
-$nilaiIPA = 6,7;
+$nilaiIPA = 6.7;
 $nilaiBahasaIndonesia = 9.3;
 
 $rataRata = ($nilaiMatematika + $nilaiIPA + $nilaiBahasaIndonesia) / 3;
@@ -25,4 +25,11 @@ echo "Bahasa Indonesia : {$nilaiBahasaIndonesia} <br>";
 echo "Rata-rata : {$rataRata} <br>";
 
 var_dump($rataRata);
+
+$apakahSiswaLulus = true;
+$apakahSiswaSudahUjian = false;
+echo "<br>";
+var_dump($apakahSiswaLulus);
+echo "<br>";
+var_dump($apakahSiswaSudahUjian);
 ?>
